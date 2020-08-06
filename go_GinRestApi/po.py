@@ -13,6 +13,6 @@ import json
 # print(r.status_code)
 # print(r.content)
 
-r = requests.delete("http://localhost/deleteteams/2")
-print(r.status_code)
-print(r.content)
+# r = requests.delete("http://localhost/deleteteams/2")
+# print(r.status_code)
+# print(r.content)
