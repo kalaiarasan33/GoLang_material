@@ -1,0 +1,1 @@
+// go-bindata-assetfs -o template.go dist/ dist/assets/images/
