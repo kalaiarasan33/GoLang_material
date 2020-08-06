@@ -57,7 +57,7 @@ func startServer(port int) {
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "Komiser"
+	app.Name = "nggo"
 	app.Compiled = time.Now()
 	app.Flags = []cli.Flag{
 		&cli.IntFlag{
