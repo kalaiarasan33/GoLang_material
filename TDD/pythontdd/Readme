@@ -1,0 +1,32 @@
+
+                            Write Test 
+                        
+                        //             \\
+
+                Refactor       ==      Pass Test
+
+
+# Write empty or dummy methods which we going to develop
+    def add(a,b):
+        pass
+
+    def sub(a,b):
+        pass
+
+# write Test case for the methods.
+#file name  test_ should be in prefix
+    def test_add():
+        output = a.add(10,20)
+        assert output == 30
+    # Run the test case it will fail
+
+# Refactor and Develop the method
+
+    def add(a,b):
+        c = a + b
+        return c
+
+# Run the test case it will pass
+
+
+ #################### Repeat Cycle to develop application #####################

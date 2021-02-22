@@ -1,0 +1,34 @@
+
+                            Write Test 
+                        
+                        //             \\
+
+                Refactor       ==      Pass Test
+
+
+# Write empty or dummy methods which we going to develop
+    func Add(a, b int) int {
+        return 0
+    }
+
+
+# write Test case for the methods.
+    #file name  _test should be in suffix
+        func TestAdd(t *testing.T) {
+            got := Add(10, 20)
+            want := 30
+            if got != want {
+                t.Errorf("Got: %v - want: %v", got, want)
+            }
+        }
+    # Run the test case it will fail
+
+# Refactor and Develop the method
+
+    func Add(a, b int) int {
+        return a + b
+    }
+# Run the test case it will pass
+
+
+ #################### Repeat Cycle to develop application #####################
